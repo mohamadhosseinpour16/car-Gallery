@@ -1,0 +1,39 @@
+:root {
+  --black: black;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 1rem 0;
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100vh;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+main > img {
+  width: 35%;
+  height: 350px;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  padding: 1rem;
+}
+section > img {
+  width: 17%;
+  height: 200px;
+  cursor: pointer;
+}
